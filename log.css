@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+
+
+.body {
+    background: #ffff;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    align-items: center;
+}
+
+
+.div3 {
+
+    display:flex;
+    justify-content:center;
+    padding:2rem;
+    align-items:center;
+    text-align:center;
+    flex-direction:column;
+    border:.2rem solid grey;
+    
+}
+
+h2
+{
+    font-family: "Sofadi One", system-ui;
+}
+
+img
+{
+    width:4rem;
+    background-image:url('img1/‌inst.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:4rem;
+    border-radius:50%;
+}
+
+
+.inp
+{
+   margin:.5rem;
+   width:15rem;
+   padding-left:.5rem;
+   height:2rem;
+}
+
+#btn
+{
+    border:.2rem solid blue;
+    width:10rem;
+    background-color: blue;
+    color:white;
+    margin:.5rem;
+    height:2rem;
+    transition:all  ease-in .2s;
+}
